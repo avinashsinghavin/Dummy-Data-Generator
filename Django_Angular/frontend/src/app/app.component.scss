@@ -1,0 +1,56 @@
+.conStyle {
+  border: solid rgb(39, 226, 164) 2px;
+  background-color: rgb(62, 233, 182);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.toolbar {
+  background-color: powderblue;
+  padding: 20px;
+  font-size: larger;
+  color: darkred;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  text-decoration: none;
+}
+.resultClass {
+  background-color: rgb(144, 248, 167);
+}
+
+.addicon {
+  background-color: rgb(60, 218, 73);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.jsondata {
+  background-color: darkcyan;
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.getdata {
+  background-color: rgb(238, 158, 144);
+  color: azure;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.inputText {
+  border: 3px solid lightblue;
+  background-color: lightblue;
+  padding: 12px;
+  border-radius: 3px;
+}
+
+p {
+  font-family: Lato;
+}

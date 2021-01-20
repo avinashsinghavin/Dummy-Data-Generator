@@ -1,0 +1,20 @@
+<mat-toolbar class="toolbar">
+  <a href="http://localhost:4200/" class="header">
+    <mat-icon>home</mat-icon>
+    Testing Data Generator
+  </a>
+</mat-toolbar>
+<div class="conStyle">
+  <div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <json-editor [options]="options" [data]="data"></json-editor>
+            <br>
+            <button type="button" class="btn btn-success" [disabled]="!disableBtn" (click)="getServerData()">Fetch Data</button> 
+            <br>
+            <br>
+            <json-editor [options]="options" [data]="receive" [style.display]="isDisplay ? 'none' : 'block'"></json-editor>
+        </div>
+    </div>
+  </div>
+</div>
